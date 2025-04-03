@@ -1,1 +1,3 @@
-# Data-Structures-Algorithms
+# Data-Structures-Algorithims
+
+Data Structures and Algorithms practice in python
