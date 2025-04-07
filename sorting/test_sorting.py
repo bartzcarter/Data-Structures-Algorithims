@@ -1,6 +1,8 @@
 import unittest
 from bubble_sort import bubble_sort
 from merge_sort import merge_sort
+from insertion_sort import insertion_sort
+
 
 class TestSorting(unittest.TestCase):
     def test_bubble_sort(self):
@@ -13,6 +15,10 @@ class TestSorting(unittest.TestCase):
         self.assertEqual(merge_sort([]), [])
         self.assertEqual(merge_sort([1,2,3]), [1,2,3])
 
+    def test_insertion_sort(self):
+        self.assertEqual(insertion_sort([5,3,8,11,2,1]), [1,2,3,5,8,11])
+        self.assertEqual(merge_sort([]), [])
+        self.assertEqual(merge_sort([1, 2, 3]), [1, 2, 3])
 
 if __name__ == '__main__':
     unittest.main(verbosity=2)
