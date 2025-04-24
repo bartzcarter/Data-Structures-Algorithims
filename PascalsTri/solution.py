@@ -1,5 +1,3 @@
-from unittest.util import sorted_list_difference
-
 
 class Solution:
     def generate_tri(self, numRows):
